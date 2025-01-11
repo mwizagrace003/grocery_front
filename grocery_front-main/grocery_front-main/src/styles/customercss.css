@@ -1,0 +1,152 @@
+/* Customer Section */
+#customer-section {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  
+  .product-grid {
+    margin-top: 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next row if needed */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .product-card {
+    flex: 1 1 calc(200px - 20px); /* Adjusts width, ensures flexibility */
+    max-width: 300px; /* Prevents items from being too wide */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-card .price {
+    color: #28a745;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .product-card .btn-view-details {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-card .btn-view-details:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Product Details Modal */
+  .product-details-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .modal-content .close-modal {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .modal-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content .price {
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content .btn-purchase {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-content .btn-purchase:hover {
+    background-color: #1c7430;
+  }
+  
+  /* Purchase Message */
+  .purchase-message {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .purchase-message p {
+    margin: 0;
+  }
+  
+  .purchase-message button {
+    margin-top: 10px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .purchase-message button:hover {
+    background: white;
+    color: #007bff;
+  }
+  

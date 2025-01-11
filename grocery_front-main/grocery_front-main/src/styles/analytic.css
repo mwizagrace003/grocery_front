@@ -1,0 +1,89 @@
+/* General container for the Analytics Body */
+.col-xxl-4 {
+    margin-bottom: 30px;
+    padding: 15px;
+  }
+  
+  /* Custom card styles */
+  .card.custom-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    background-color: #ffffff;
+  }
+  
+  .card-header {
+    background-color: #f4f6f9;
+    border-radius: 8px 8px 0 0;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .role-stats-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .role-stat {
+    text-align: center;
+  }
+  
+  .stat-title {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 8px;
+  }
+  
+  .stat-value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Donut chart container */
+  #role-stats-chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }
+  
+  .card-body .role-stat .stat-value {
+    color: #333;
+  }
+  
+  .card-body .role-stat .stat-title {
+    color: #666;
+  }
+  
+  .card-body .role-stat {
+    flex: 1;
+  }
+  
+  .card-body .role-stat:first-child {
+    margin-right: 15px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .col-xxl-4 {
+      margin-bottom: 20px;
+    }
+  
+    .card-body .role-stat {
+      margin-bottom: 15px;
+    }
+  }
+  
